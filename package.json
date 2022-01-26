@@ -1,0 +1,30 @@
+{
+  "name": "cromwell",
+  "version": "1.0.0",
+  "description": "Tech test for Cromwell",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx cypress run",
+    "debug": "npx cypress open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/davemTest/cromwell.git"
+  },
+  "author": "Dave.Minns",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/davemTest/cromwell/issues"
+  },
+  "homepage": "https://github.com/davemTest/cromwell#readme",
+  "dependencies": {
+    "cypress": "^9.3.1"
+  },
+  "devDependencies": {
+    "eslint": "^8.7.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-cypress": "^2.12.1",
+    "eslint-plugin-prettier": "^4.0.0",
+    "prettier": "^2.5.1"
+  }
+}
