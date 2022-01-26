@@ -33,14 +33,6 @@ describe("Cromwell product category tests", () => {
       productCategories.expectedText.norton
     );
 
-    // Left these commented out couldn't get this to work outside of waiting
-    // cy.url({timeout: 5000}).should('include', 'price-asc')
-    // // cy.log(cy.url);
-
-    // cy.window().then((win) => {
-    //     expect(win.document.readyState).to.eql('complete')
-    // })
-
     cy.get(productCategories.elements.productCards)
       .first()
       .contains(productCategories.expectedText.lowestAmount);
